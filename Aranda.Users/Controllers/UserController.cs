@@ -32,7 +32,7 @@ namespace Aranda.Users.BackEnd.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine($"An error has occurred calling the otp service {e}, {e.Message}");
+                Console.WriteLine($"An error has occurred calling the service {e}, {e.Message}");
                 return BadRequest(e.Message);
             }
 
@@ -49,7 +49,7 @@ namespace Aranda.Users.BackEnd.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine($"An error has occurred calling the otp service {e}, {e.Message}");
+                Console.WriteLine($"An error has occurred calling the service {e}, {e.Message}");
                 return BadRequest(e.Message);
             }
         }
@@ -65,7 +65,7 @@ namespace Aranda.Users.BackEnd.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine($"An error has occurred calling the otp service {e}, {e.Message}");
+                Console.WriteLine($"An error has occurred calling the service {e}, {e.Message}");
                 return BadRequest(e.Message);
             }
         }
@@ -81,7 +81,7 @@ namespace Aranda.Users.BackEnd.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine($"An error has occurred calling the otp service {e}, {e.Message}");
+                Console.WriteLine($"An error has occurred calling the service {e}, {e.Message}");
                 return BadRequest(e.Message);
             }
         }
